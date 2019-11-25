@@ -37,7 +37,6 @@ line-height: 36px;
     display: block;
     clear: both;
 }
-
 .photo {
     width: 469px;
     height: 214px;
@@ -109,3 +108,38 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 }
+
+.fourth-h {
+color: #445161;
+font-family: "Arial";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+}
+
+.card-h {
+color: #445161;
+font-family: "Arial";
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.text {
+width: 359px;
+height: 108px;
+color: #333333;
+font-family: "Arial";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.photos {
+display: block;
+width: 200px;
+height: 150px;
+background-color: #445161;
+}
+
+
