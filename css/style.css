@@ -1,0 +1,153 @@
+
+.container {
+   width: 1280px; 
+    margin:0 auto ;
+}
+
+.first-h {
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+color: #ffffff;
+font-family: "Arial";
+font-size: 60px;
+font-weight: 400;
+    margin: 0;
+}
+
+.section1 {
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445162;
+    margin: 0;
+}
+
+.list-struct {
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+color: #fff;
+font-family: "Arial";
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+}
+
+.need {
+    width: 462px;
+   /* padding: 50px;*/
+    float:left;
+}
+
+.section1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.photo {
+    width: 469px;
+    float: right;
+    background-color: #fff;
+    display: block;
+}
+
+
+.blok {
+   /* padding: 50px;*/
+    float: left;
+    width: 653px;
+}
+
+.section2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+video {
+    /*margin: 50px;*/
+    float: right;
+    width: 427px;
+    height: 245px;
+    background-color: #445161;
+}
+
+.second-h {
+color: #445161;
+font-family: "Arial";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+}
+
+.par {
+color: #333333;
+font-family: "Arial";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.third-h {
+color: #445161;
+font-family: "Arial";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+margin-left: 460px;
+}
+
+.section3 {
+    background-color: #f5f5f5;
+    padding: 40px 0 0 40px;
+}
+
+.second-list {
+    width: 567px;
+    display: inline-block;
+}
+
+.struct-list {
+    margin-bottom: 30px;
+    color: #333333;
+font-family: "Arial";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.fourth-h {
+color: #445161;
+font-family: "Arial";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+}
+
+.card-h {
+color: #445161;
+font-family: "Arial";
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.text {
+width: 359px;
+height: 108px;
+color: #333333;
+font-family: "Arial";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.photos {
+display: block;
+width: 200px;
+height: 150px;
+background-color: #445161;
+}
+
+
+
+.section2 {
+    padding: 50px;
+box-sizing: border-box;
+}
