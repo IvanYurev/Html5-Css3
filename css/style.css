@@ -63,10 +63,9 @@ line-height: 36px;
 }
 
 video {
-    /*margin: 50px;*/
     float: right;
     width: 427px;
-    height: 245px;
+    height: 240px;
     background-color: #445161;
 }
 
@@ -481,6 +480,5 @@ background-repeat:no-repeat;
 position: absolute;
 top: 6px;
 left: -42px;
-margin: 0 auto;
 }
 
