@@ -357,7 +357,7 @@ input[type="text"],[type="email"]{
 width: 500px;
 border-radius: 10px;
 outline: none;
-border:0;
+border:1px solid white;
 padding: 14px;    
 color: #445162;
 font-family: "Arial";
@@ -380,7 +380,6 @@ padding: 14px;
 
 input[type="submit"] {
 width: 140px;
-//height: 40px;
 background-color: #fff;
 border-radius: 10px;
 outline: none;
@@ -482,3 +481,20 @@ top: 6px;
 left: -42px;
 }
 
+
+input[type="text"]:hover,
+[type="email"]:hover,
+textarea:hover {
+border: 1px solid #445161;
+border-radius: 10px; 
+background-color: #524651;
+}
+input[type="text"]:hover::placeholder,
+input[type="email"]:hover::placeholder,
+textarea:hover::placeholder {
+  color: white;
+}
+input[type="submit"]:hover {
+background-color: #524651;
+    color:#fff;
+}
