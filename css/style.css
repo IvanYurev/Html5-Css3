@@ -323,7 +323,7 @@ font-size: 18px;
 font-weight: 700;
 line-height: 18px;
 text-transform: uppercase;
-    margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 .contact {
@@ -498,3 +498,12 @@ input[type="submit"]:hover {
 background-color: #524651;
     color:#fff;
 }
+
+.buy-btn:hover {
+  color:#fff;
+    background-color: #524651;
+}
+
+
+
+
