@@ -336,3 +336,72 @@ text-transform: uppercase;
 }
 
 
+
+.contact {
+padding: 50px;
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+background-color: #445162;
+    justify-content: center;
+}
+
+.seventh-h {
+display: block;
+width: 100%;
+text-align: center;
+color: #fff;
+font-family: "Arial";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+margin: 0;
+margin-bottom: 31px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],[type="email"]{
+width: 500px;
+border-radius: 10px;
+outline: none;
+border:0;
+padding: 14px;    
+color: #445162;
+font-family: "Arial";
+font-size: 16px;
+line-height: 24px;  
+    margin-bottom: 21px;
+}
+
+textarea {
+width: 500px;
+height: 170px;
+border-radius: 10px;
+color: #445162;
+font-family: "Arial";
+font-size: 16px;
+line-height: 24px;
+padding: 14px;
+    outline: none;
+}
+
+input[type="submit"] {
+width: 140px;
+//height: 40px;
+background-color: #fff;
+border-radius: 10px;
+outline: none;
+border: 0;
+color: #445162;
+font-family: "Arial";
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+padding:  14px 48px 14px 48px;
+margin: 21px auto;
+}
