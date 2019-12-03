@@ -325,6 +325,7 @@ font-weight: 700;
 line-height: 18px;
 text-transform: uppercase;
 margin-bottom: 15px;
+outline: none;    
 }
 
 .contact {
@@ -499,8 +500,15 @@ input[type="submit"]:hover {
 background-color: #524651;
     color:#fff;
 }
-
+input[type="submit"]:active {
+  background-color: #fff;
+    color:#445162;
+}
 .buy-btn:hover {
   color:#fff;
     background-color: #524651;
+}
+.buy-btn:active {
+  background-color: #fff;
+    color:#445162;
 }
