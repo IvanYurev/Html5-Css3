@@ -2,14 +2,16 @@
    width: 1280px; 
     margin:0 auto ;
 }
-
+.second-h, .par, .fourth-h, .fifth-h, .sixth-h{
+    margin: 0;
+}
 .first-h {
 text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
 color: #ffffff;
 font-family: "Arial";
 font-size: 60px;
 font-weight: 400;
-    margin: 0;
+margin: 0;
 }
 
 .section1 {
@@ -33,7 +35,6 @@ line-height: 36px;
 
 .need {
     width: 462px;
-   /* padding: 50px;*/
     float:left;
 }
 
@@ -48,10 +49,7 @@ line-height: 36px;
     background-color: #fff;
     display: block;
 }
-
-
 .blok {
-   /* padding: 50px;*/
     float: left;
     width: 653px;
 }
@@ -75,6 +73,7 @@ font-family: "Arial";
 font-size: 30px;
 font-weight: 400;
 line-height: 36px;
+margin-bottom: 30px;    
 }
 
 .par {
@@ -123,7 +122,8 @@ font-family: "Arial";
 font-size: 30px;
 font-weight: 400;
 line-height: 36px;
-    text-align: center;
+text-align: center;
+    margin-bottom: 30px;
 }
 
 .card-h {
@@ -148,7 +148,6 @@ line-height: 24px;
 
 .photos {
 display: block;
-//float: left;
 width: 200px;
 height: 150px;
 background-color: #445161;
@@ -185,13 +184,15 @@ box-sizing: border-box;
 }
 
 .fifth-h {
-    display: block;
-width: 100%;    text-align: center;
-    color: #445161;
+display: block;
+width: 100%;    
+text-align: center;
+color: #445161;
 font-family: "Arial";
 font-size: 30px;
 font-weight: 400;
 line-height: 36px;
+padding: 50px 0 10px 0;
 }
 
 .avatar {
@@ -219,7 +220,6 @@ position: relative;
 .comment {
     display: flex;
     padding: 0px 50px 0px 50px;
-    //margin-right: 50px;
 }
 
 .reviews {
@@ -264,6 +264,7 @@ font-weight: 400;
 line-height: 36px;
 width: 100%;
 text-align: center;
+padding: 29px 0;
 }
 
 .card-buy {
@@ -469,18 +470,18 @@ background-image: url(../img/check_icon.png);
 }
 
 .struct-list::before {
-content: "";
-display: block;
 width: 32px;
 height: 32px;
+content: "+";
+color: white;
+text-align: center;
+line-height: 32px;
+font-size: 40px;
 background-color: #445161;
-background-image:url(../img/Layer_2.png);  
-background-repeat:no-repeat;
 position: absolute;
 top: 6px;
 left: -42px;
 }
-
 
 input[type="text"]:hover,
 [type="email"]:hover,
@@ -503,7 +504,3 @@ background-color: #524651;
   color:#fff;
     background-color: #524651;
 }
-
-
-
-
