@@ -512,3 +512,37 @@ input[type="submit"]:active {
   background-color: #fff;
     color:#445162;
 }
+.social{
+    display: flex;
+    justify-content: center;
+    width: 330px;
+}
+.soc-link{
+display: block;
+height: 42px;
+width: 45px;
+background-image: url(/img/social_buttons.png);
+    margin-right: 5px;
+}
+
+.tw {
+    background-position: 0 0;
+}
+
+.face {
+    background-position: -49px 0;
+}
+
+.in {
+    background-position: -98px 0;
+}
+
+.google {
+    background-position: -148px 0;
+}
+
+.tube {
+    background-position: -196px 0;
+}
+
+
